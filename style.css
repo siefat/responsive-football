@@ -35,6 +35,7 @@ body{
 }
  /*------------------------ header style end ---------------------------*/
 /*--------------------- Top players style start ---------------------- */
+/*---------------------- top-player-section-start-------------------- */
 main{
     display: flex;
     flex-direction: column;
@@ -76,4 +77,32 @@ main{
     height: 104px;
     font-size: 16px;
     color: #6C6C6C;
+}
+/*---------------------- top-player-section-end---------------------- */
+/* ----------------------top-player-style-end----------------------- */
+
+/* -----------------------Footer style start-------------------------- */
+.logo img{
+     width: 483px;
+     height: 110px;
+     margin-top: 126px;
+}
+.fonts{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.font-awesome{
+    display: flex;
+    margin-top: 20px;
+}
+.fab{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+.copy-right-text{
+    color:  #000000;
+    text-align: center;
+    margin-top: 20px;
 }
