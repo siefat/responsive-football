@@ -7,9 +7,6 @@ body{
     margin: 0;
 }
 /*------------------- header style-------------------------- */
-.header-container{
-   
-}
 .title-banner{
     display: flex;
     justify-content: space-evenly;
@@ -23,7 +20,20 @@ body{
     margin-top: 60px;
     margin-left: 35px;
     margin-right: 52px;
-   
+}
+.button-link{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+.button-text{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 28px;
+    color: #FFFFFF;
+}
+#link{
+    text-decoration: none;
    
 }
 .banner img{
